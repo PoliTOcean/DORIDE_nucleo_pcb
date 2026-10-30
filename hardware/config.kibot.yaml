@@ -1,0 +1,43 @@
+kibot:
+  version: 1
+
+preflight:
+  erc: false   # da attivare quando la scheda è pulita
+  drc: false   # da attivare quando la scheda è pulita
+
+outputs:
+  - name: pcb_top
+    type: pcbdraw
+    dir: docs/img
+    options:
+      format: png
+      bottom: false
+      output: '%f-top.%x'
+
+  - name: pcb_bottom
+    type: pcbdraw
+    dir: docs/img
+    options:
+      format: png
+      bottom: true
+      output: '%f-bottom.%x'
+
+  - name: render_3d
+    type: render_3d
+    dir: docs/img
+    options:
+      output: '%f-3d.%x'
+      ray_tracing: true
+
+  - name: schematic_pdf
+    type: pdf_sch_print
+    dir: outputs/pdf
+
+  - name: gerbers
+    type: gerber
+    dir: outputs/gerbers
+    layers: all
+
+  - name: drill
+    type: excellon
+    dir: outputs/gerbers

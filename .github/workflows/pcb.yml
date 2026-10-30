@@ -1,0 +1,19 @@
+name: PCB outputs
+on:
+  push:
+    branches: [main]
+    paths: ['hardware/**', '.github/workflows/pcb.yml']
+  pull_request:
+    paths: ['hardware/**']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pcb-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  pcb:
+    uses: PoliTOcean/.github/.github/workflows/kibot-pcb.yml@main
