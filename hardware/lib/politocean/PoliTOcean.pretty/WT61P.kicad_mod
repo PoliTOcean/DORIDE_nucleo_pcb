@@ -1,0 +1,250 @@
+(footprint "WT61P"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "Ref**"
+		(at 0.675 -8.35 0)
+		(layer "F.SilkS")
+		(uuid "cb8c0964-4b4f-4c83-ad12-71b79ed09865")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Val**"
+		(at 0.175 -3.35 0)
+		(layer "F.Fab")
+		(uuid "21ff9a6a-beb3-447f-bcb1-c9929255e368")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f3cd50ba-94c9-45bc-839f-8f4d85fb0a55")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cbc76af1-3e46-43f2-837f-44dae753080f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_line
+		(start -7.825 -7.35)
+		(end 7.415 -7.35)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "390856e3-1a6c-4b01-be30-a170751f154b")
+	)
+	(fp_line
+		(start -7.825 7.89)
+		(end -7.825 -7.35)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "58f0fbc6-cebe-4f81-9497-ba3d065d82cd")
+	)
+	(fp_line
+		(start 7.415 -7.35)
+		(end 7.415 7.89)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ffaebce1-1fb6-4bec-a466-5feeb78b19ca")
+	)
+	(fp_line
+		(start 7.415 7.89)
+		(end -7.825 7.89)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c25fb7e8-5d26-402b-b6b7-3efe424bc44d")
+	)
+	(fp_circle
+		(center 4.675 -5.85)
+		(end 4.175 -5.35)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "56e95aff-2336-4850-985f-f6edc04512bb")
+	)
+	(fp_rect
+		(start -8.325 -7.85)
+		(end 7.925 8.4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "2ea88026-e647-4fda-8474-9fa8415cd1f8")
+	)
+	(fp_text user "WT61P"
+		(at -0.335 -5.6 0)
+		(layer "F.SilkS")
+		(uuid "7f4f02c9-7a5b-4b16-875e-ee9f21c45fd0")
+		(effects
+			(font
+				(size 1.778 1.778)
+				(thickness 0.1524)
+			)
+		)
+	)
+	(pad "P1" thru_hole rect
+		(at -6.555 -6.08)
+		(size 1.40716 1.40716)
+		(drill 0.89916)
+		(layers "*.Cu" "*.Paste" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "71d3940c-69ba-4aff-9fe9-d106c3464127")
+	)
+	(pad "P2" thru_hole rect
+		(at 6.145 -6.08)
+		(size 1.40716 1.40716)
+		(drill 0.89916)
+		(layers "*.Cu" "*.Paste" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "f7f4d929-cddc-4b23-9e5a-7ba884f0da6a")
+	)
+	(pad "P3" thru_hole rect
+		(at -6.555 -3.54)
+		(size 1.40716 1.40716)
+		(drill 0.89916)
+		(layers "*.Cu" "*.Paste" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "c9b67801-51a4-40e0-ad89-956d2a0a7040")
+	)
+	(pad "P4" thru_hole rect
+		(at 6.145 -3.54)
+		(size 1.40716 1.40716)
+		(drill 0.89916)
+		(layers "*.Cu" "*.Paste" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "edc74a7a-63dd-4b14-820f-4695bd80ae1e")
+	)
+	(pad "P5" thru_hole rect
+		(at -6.555 -1)
+		(size 1.40716 1.40716)
+		(drill 0.89916)
+		(layers "*.Cu" "*.Paste" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "441700e2-07a2-4095-9c05-d153b400a91c")
+	)
+	(pad "P6" thru_hole rect
+		(at 6.145 -1)
+		(size 1.40716 1.40716)
+		(drill 0.89916)
+		(layers "*.Cu" "*.Paste" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "9daa42b2-103d-4c39-93da-4c8b4327715a")
+	)
+	(pad "P7" thru_hole rect
+		(at -6.555 1.54)
+		(size 1.40716 1.40716)
+		(drill 0.89916)
+		(layers "*.Cu" "*.Paste" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "1cb25108-d5c0-4852-813e-378a7aa0111b")
+	)
+	(pad "P8" thru_hole rect
+		(at 6.145 1.54)
+		(size 1.40716 1.40716)
+		(drill 0.89916)
+		(layers "*.Cu" "*.Paste" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "dd277c18-f88f-404e-b2bb-fe945667abba")
+	)
+	(pad "P9" thru_hole rect
+		(at -6.555 4.08)
+		(size 1.40716 1.40716)
+		(drill 0.89916)
+		(layers "*.Cu" "*.Paste" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "4c480d77-db2b-4470-b415-3b991d8ccb98")
+	)
+	(pad "P10" thru_hole rect
+		(at 6.145 4.08)
+		(size 1.40716 1.40716)
+		(drill 0.89916)
+		(layers "*.Cu" "*.Paste" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "e862f59f-8a26-4e26-b6d9-7b8e23eaeeb9")
+	)
+	(pad "P11" thru_hole rect
+		(at -6.555 6.62)
+		(size 1.40716 1.40716)
+		(drill 0.89916)
+		(layers "*.Cu" "*.Paste" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "d459d616-b7c5-429a-98c8-21ca4e779c40")
+	)
+	(pad "P12" thru_hole rect
+		(at 6.135 6.62)
+		(size 1.40716 1.40716)
+		(drill 0.89916)
+		(layers "*.Cu" "*.Paste" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "2a035bf1-aaba-4632-bc0f-b6cf6a05cecc")
+	)
+	(group ""
+		(uuid "401aca62-3ff8-4b15-92c7-1d82310838fe")
+		(members "1cb25108-d5c0-4852-813e-378a7aa0111b" "21ff9a6a-beb3-447f-bcb1-c9929255e368"
+			"2a035bf1-aaba-4632-bc0f-b6cf6a05cecc" "2ea88026-e647-4fda-8474-9fa8415cd1f8"
+			"390856e3-1a6c-4b01-be30-a170751f154b" "441700e2-07a2-4095-9c05-d153b400a91c"
+			"4c480d77-db2b-4470-b415-3b991d8ccb98" "56e95aff-2336-4850-985f-f6edc04512bb"
+			"58f0fbc6-cebe-4f81-9497-ba3d065d82cd" "71d3940c-69ba-4aff-9fe9-d106c3464127"
+			"7f4f02c9-7a5b-4b16-875e-ee9f21c45fd0" "9daa42b2-103d-4c39-93da-4c8b4327715a"
+			"c25fb7e8-5d26-402b-b6b7-3efe424bc44d" "c9b67801-51a4-40e0-ad89-956d2a0a7040"
+			"cb8c0964-4b4f-4c83-ad12-71b79ed09865" "d459d616-b7c5-429a-98c8-21ca4e779c40"
+			"dd277c18-f88f-404e-b2bb-fe945667abba" "e862f59f-8a26-4e26-b6d9-7b8e23eaeeb9"
+			"edc74a7a-63dd-4b14-820f-4695bd80ae1e" "f7f4d929-cddc-4b23-9e5a-7ba884f0da6a"
+			"ffaebce1-1fb6-4bec-a466-5feeb78b19ca"
+		)
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,181 @@
+(footprint "C2220K"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "CERAMIC CHIP CAPACITOR KEMET 2220 REFLOW SOLDERMETRIC CODE SIZE 5650")
+	(tags "CERAMIC CHIP CAPACITOR KEMET 2220 REFLOW SOLDERMETRIC CODE SIZE 5650")
+	(property "Reference" ">NAME"
+		(at -0.25908 -3.45694 0)
+		(layer "F.SilkS")
+		(uuid "c3a1bc15-5641-4d40-a075-eddcaff5af3b")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.0762)
+			)
+		)
+	)
+	(property "Value" ">VALUE"
+		(at 0.24638 3.46456 0)
+		(layer "F.SilkS")
+		(uuid "eb06707d-ea4c-47a5-84bc-9e45f09c13cb")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.0762)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "601ea422-9370-446c-8707-3fecaab6b376")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4e22b8e9-f55d-465e-aa92-a97aab882d97")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ad9a492e-ff1d-4560-951d-80f675b762f3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.79908 -2.49936)
+		(end -2.19964 -2.49936)
+		(stroke
+			(width 0.06604)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "7213eb41-1a56-49f6-afbe-835b05124319")
+	)
+	(fp_line
+		(start -2.79908 2.49936)
+		(end -2.79908 -2.49936)
+		(stroke
+			(width 0.06604)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "a3bd6205-80ca-46b3-b69c-d1d41411b6e9")
+	)
+	(fp_line
+		(start -2.79908 2.49936)
+		(end -2.19964 2.49936)
+		(stroke
+			(width 0.06604)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "e86eebf8-50e6-40b3-880c-d23d064fd812")
+	)
+	(fp_line
+		(start -2.72288 -2.42316)
+		(end 3.49758 -2.42316)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "b89320bf-a75a-4211-88fb-d3532e872f08")
+	)
+	(fp_line
+		(start -2.19964 2.49936)
+		(end -2.19964 -2.49936)
+		(stroke
+			(width 0.06604)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "e4574ec7-3049-4b2d-991e-2d9ee44c13cd")
+	)
+	(fp_line
+		(start 3.21564 -2.49936)
+		(end 3.81508 -2.49936)
+		(stroke
+			(width 0.06604)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "34f96e66-7ab7-44d0-81ef-e363e5f6daa8")
+	)
+	(fp_line
+		(start 3.21564 2.49936)
+		(end 3.21564 -2.49936)
+		(stroke
+			(width 0.06604)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "c9aa2d41-a845-46e7-894a-944b5207280c")
+	)
+	(fp_line
+		(start 3.21564 2.49936)
+		(end 3.81508 2.49936)
+		(stroke
+			(width 0.06604)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "a5b87fc8-6207-4a9f-8c0a-0a9f687b4fbd")
+	)
+	(fp_line
+		(start 3.49758 2.42316)
+		(end -2.72288 2.42316)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "a66a0de8-72e6-4903-b0f2-58ffc50803ab")
+	)
+	(fp_line
+		(start 3.81508 2.49936)
+		(end 3.81508 -2.49936)
+		(stroke
+			(width 0.06604)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "7b4ee647-609a-46ed-b84c-a33177407045")
+	)
+	(pad "1" smd rect
+		(at -2.54762 0)
+		(size 1.84912 5.4991)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "9ecac9ab-b654-464f-86cf-b8cfbb9e399b")
+	)
+	(pad "2" smd rect
+		(at 3.49758 0)
+		(size 1.84912 5.4991)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "ee21c696-ea83-4b0b-90b0-c988732c96ff")
+	)
+)

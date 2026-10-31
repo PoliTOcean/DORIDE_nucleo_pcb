@@ -1,0 +1,158 @@
+(footprint "MOLEX_22035045"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" ""
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "52136e34-c44c-4579-b8df-f09c312ad4d4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "97f413d4-e49d-4001-899f-24f88b8cdf7f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b1fc59a7-2195-42f7-9e86-4ee16f53a34e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2080156c-8812-4f21-a695-d1edb64453b5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "29255e2d-0cb7-4474-a47f-35f41b8f541c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_line
+		(start 0 -10.9982)
+		(end 0 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "efe048c9-a9c6-4948-bc2f-226872d46bd7")
+	)
+	(fp_line
+		(start 0 -10.9982)
+		(end 3.49758 -10.9982)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ddc56a7b-a9cd-4df7-83c2-d65688880e7b")
+	)
+	(fp_line
+		(start 3.429 -9.906)
+		(end 2.54 -10.922)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "09255adf-a819-4e0c-b54b-b3a4efd996b7")
+	)
+	(fp_line
+		(start 3.49758 -10.9982)
+		(end 3.49758 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b63bcf0a-985b-444f-ae2a-21294e0f0143")
+	)
+	(fp_line
+		(start 3.49758 0)
+		(end 0 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fbce99d4-372a-4827-806f-999c45fcaf40")
+	)
+	(fp_text user "MOLEX 22035045"
+		(at 7.112 -11.938 0)
+		(layer "F.SilkS")
+		(uuid "8dcc2688-dea2-4cf4-8e04-84d95750ec3a")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.0762)
+			)
+		)
+	)
+	(pad "D+" thru_hole circle
+		(at 1.1176 -6.74878)
+		(size 1.27 1.27)
+		(drill 0.89916)
+		(layers "*.Cu" "*.Paste" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "46e9128a-4430-4c0b-a060-6a884e6a245e")
+	)
+	(pad "D-" thru_hole circle
+		(at 1.1176 -9.24814)
+		(size 1.27 1.27)
+		(drill 0.89916)
+		(layers "*.Cu" "*.Paste" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "237884dd-cc4a-47d0-bd77-939927b2e4d5")
+	)
+	(pad "GND" thru_hole circle
+		(at 1.1176 -1.74752)
+		(size 1.27 1.27)
+		(drill 0.89916)
+		(layers "*.Cu" "*.Paste" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3cdc3f56-e06d-4008-931b-b1ff1d9eca8f")
+	)
+	(pad "V_MOT" thru_hole circle
+		(at 1.1176 -4.24942)
+		(size 1.27 1.27)
+		(drill 0.89916)
+		(layers "*.Cu" "*.Paste" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2e350be8-7355-4dd8-9d5d-73d7db5d2822")
+	)
+)

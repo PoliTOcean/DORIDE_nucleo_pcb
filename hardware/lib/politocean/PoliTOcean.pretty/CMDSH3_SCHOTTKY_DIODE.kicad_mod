@@ -1,0 +1,150 @@
+(footprint "CMDSH3_SCHOTTKY_DIODE"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" ""
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "7a1989d7-952d-46f6-a349-092071f3fcff")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "6b6879d1-299b-4525-bfbf-bf8d62c51e9a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a9a5ed0e-1970-42a8-884b-0d1d90a2fb1b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "da251d02-d2a8-408c-bb5a-b76dce6065ca")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b95e6473-acfc-4109-8de7-c5ec49197094")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0 -1.69926)
+		(end 1.24968 -1.69926)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "10dcfe3c-e57a-42eb-b064-6473efd88db3")
+	)
+	(fp_line
+		(start 0 -1.27)
+		(end 0 -1.69926)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9252dd0c-aa3a-4824-8882-d330eae78a00")
+	)
+	(fp_line
+		(start 0 -1.27)
+		(end 1.27 -1.27)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "523bbd94-715a-445d-af2b-5cf4f878d5a6")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -1.27)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c799fabc-5c01-4be2-a7a2-302e771d4bec")
+	)
+	(fp_line
+		(start 1.24968 -1.69926)
+		(end 1.24968 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "02cbf45e-823b-41d3-9b69-197d988b6748")
+	)
+	(fp_line
+		(start 1.24968 0)
+		(end 0 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e2fb8e65-88e4-45f9-b5f2-7459203388b7")
+	)
+	(fp_text user "CMDSH3_SCHOTTKY_DIODE"
+		(at 1.397 -2.667 0)
+		(layer "F.SilkS")
+		(uuid "72b4cab1-8c00-4b4a-9a5a-ccaababe2a8f")
+		(effects
+			(font
+				(size 0.254 0.254)
+				(thickness 0.0254)
+			)
+		)
+	)
+	(pad "P1" smd rect
+		(at 0.62484 -1.89992 180)
+		(size 0.34798 0.39878)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "3f206532-9fc8-4d72-bc95-35079a05e0e8")
+	)
+	(pad "P2" smd rect
+		(at 0.62484 0.19812 180)
+		(size 0.34798 0.39878)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "43606bac-68d8-43a9-b410-cc4dcb4c8684")
+	)
+)

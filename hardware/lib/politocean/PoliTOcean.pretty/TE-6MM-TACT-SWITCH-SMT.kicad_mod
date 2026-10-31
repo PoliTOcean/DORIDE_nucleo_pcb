@@ -1,0 +1,186 @@
+(footprint "TE-6MM-TACT-SWITCH-SMT"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "TE-6MM-TACT-SWITCH-SMT")
+	(tags "TE-6MM-TACT-SWITCH-SMT")
+	(property "Reference" ">NAME"
+		(at -0.46482 0 0)
+		(layer "F.SilkS")
+		(uuid "8515c227-7010-4b39-a64e-d1d7aded65fe")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1016)
+			)
+		)
+	)
+	(property "Value" ">VALUE"
+		(at -0.46482 0 0)
+		(layer "F.SilkS")
+		(uuid "5cf0ed48-28e9-4f77-bf81-ba9eac940486")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1016)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "10d971a9-cfa3-4411-821d-7c941890ec98")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "21ed776c-c04f-4c91-906e-72064e6ffc15")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6a0de1e3-71f8-4e6b-aceb-e6eec9bfd6d1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.99974 -2.99974)
+		(end 2.99974 -2.99974)
+		(stroke
+			(width 0.19812)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "65635cb4-0cbc-47de-9601-d2f66c813260")
+	)
+	(fp_line
+		(start -2.99974 2.99974)
+		(end -2.99974 -2.99974)
+		(stroke
+			(width 0.19812)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e151975d-6cd9-4e85-be1d-dd7fb1ef63aa")
+	)
+	(fp_line
+		(start 2.99974 -2.99974)
+		(end 2.99974 2.99974)
+		(stroke
+			(width 0.19812)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e05d6af8-24dd-4a55-8143-663a3d082dec")
+	)
+	(fp_line
+		(start 2.99974 2.99974)
+		(end -2.99974 2.99974)
+		(stroke
+			(width 0.19812)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0392989b-220d-45ad-9ddf-142072f25d4b")
+	)
+	(fp_circle
+		(center 2.2352 -6.28142)
+		(end 2.2352 -6.35762)
+		(stroke
+			(width 0.19812)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "950d0bb9-1faf-4210-9146-765e974a85ad")
+	)
+	(fp_line
+		(start -2.99974 -2.99974)
+		(end 2.99974 -2.99974)
+		(stroke
+			(width 0.19812)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "d5a3af81-0d23-422a-9cf4-d126caaa9017")
+	)
+	(fp_line
+		(start -2.99974 2.99974)
+		(end -2.99974 -2.99974)
+		(stroke
+			(width 0.19812)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "d187161e-0453-4906-b6bf-500cbd487c14")
+	)
+	(fp_line
+		(start 2.99974 -2.99974)
+		(end 2.99974 2.99974)
+		(stroke
+			(width 0.19812)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "1fcdff81-98c2-40ac-b847-b5eebd8bf546")
+	)
+	(fp_line
+		(start 2.99974 2.99974)
+		(end -2.99974 2.99974)
+		(stroke
+			(width 0.19812)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "6ef2923b-f882-432f-a451-bb19fff7dd89")
+	)
+	(pad "1" smd rect
+		(at 2.2479 -4.54914 90)
+		(size 2.09804 1.39954)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "f04cea40-6a26-47cc-aee9-8c9310f26247")
+	)
+	(pad "2" smd rect
+		(at 2.2479 4.54914 90)
+		(size 2.09804 1.39954)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "1ffbf738-6c46-493f-8361-4593ec3dc6bc")
+	)
+	(pad "3" smd rect
+		(at -2.2479 -4.54914 90)
+		(size 2.09804 1.39954)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "c7f0cbcb-a433-4604-b087-c4103cb9f441")
+	)
+	(pad "4" smd rect
+		(at -2.2479 4.54914 90)
+		(size 2.09804 1.39954)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "a09b089c-af1c-4264-8499-130caec8ff28")
+	)
+)

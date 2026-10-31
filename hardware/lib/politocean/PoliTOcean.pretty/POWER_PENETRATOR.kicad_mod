@@ -1,0 +1,94 @@
+(footprint "POWER_PENETRATOR"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" ""
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "47e4433e-a8e6-465d-b4e8-d62fe3247783")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "d442f175-d6e9-4fc0-b221-39c2253675fc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4abeda0e-fe84-4fd2-85ec-0d714303571a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "75377255-4ae2-4f7c-95dc-fa109ba0abe6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5d351d04-7fb9-4dab-923e-782d0512f085")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_text user "+   -"
+		(at 12.68984 -7.30758 0)
+		(layer "F.SilkS")
+		(uuid "cd7f5cec-bcb3-4437-8c19-af6827a58b66")
+		(effects
+			(font
+				(size 6.9977 6.9977)
+				(thickness 0.56134)
+			)
+		)
+	)
+	(pad "P$1" thru_hole rect
+		(at 0 0)
+		(size 4.99872 4.99872)
+		(drill 2.99974)
+		(layers "*.Cu" "*.Paste" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "237784bb-f177-4602-8b76-2391ad2f28ce")
+	)
+	(pad "P$2" thru_hole rect
+		(at 9.99998 0)
+		(size 4.99872 4.99872)
+		(drill 2.99974)
+		(layers "*.Cu" "*.Paste" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "0b6a7258-b082-4492-acf7-2964b90e3506")
+	)
+)

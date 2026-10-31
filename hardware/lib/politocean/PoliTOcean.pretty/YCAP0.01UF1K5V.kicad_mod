@@ -1,0 +1,123 @@
+(footprint "YCAP0.01UF1K5V"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "HTTPS://WWW.DIGIKEY.IT/PRODUCT-DETAIL/IT/EPCOS-TDK/B32021A3222M189/495-4967-1-ND/3881160")
+	(tags "HTTPS://WWW.DIGIKEY.IT/PRODUCT-DETAIL/IT/EPCOS-TDK/B32021A3222M189/495-4967-1-ND/3881160")
+	(property "Reference" ""
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "f33c811a-ea37-4f37-8cf9-c96253d46fc9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "0671cb4c-c4dc-418f-9930-2571c991de99")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "33c4f87b-41ac-4cb4-8b75-9b7d67414388")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "38482edd-6517-46be-a974-823e8fcdd93e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9a538948-2f74-4f1f-be34-038d9cf6783c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_line
+		(start -1.4986 -2.99974)
+		(end -1.4986 2.99974)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f680c703-353e-4435-81e9-7fa0acb69a45")
+	)
+	(fp_line
+		(start -1.4986 2.99974)
+		(end 11.49858 2.99974)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5756fe20-3d38-4bf5-8b9c-fcdae1f86abc")
+	)
+	(fp_line
+		(start 11.49858 -2.99974)
+		(end -1.4986 -2.99974)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "027da42b-204e-474a-9631-b07d701e5065")
+	)
+	(fp_line
+		(start 11.49858 2.99974)
+		(end 11.49858 -2.99974)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2fc2c793-59be-4a96-bb45-81ae6c3095ee")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.10744 1.10744)
+		(drill 0.59944)
+		(layers "*.Cu" "*.Paste" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1e27e49b-acd5-49db-81b8-09eb22eb783c")
+	)
+	(pad "2" thru_hole circle
+		(at 9.99998 0)
+		(size 1.10744 1.10744)
+		(drill 0.59944)
+		(layers "*.Cu" "*.Paste" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b78a6fbd-7445-42a9-95a8-d96ffef93461")
+	)
+)

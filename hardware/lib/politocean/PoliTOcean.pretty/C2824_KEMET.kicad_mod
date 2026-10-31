@@ -1,0 +1,211 @@
+(footprint "C2824_KEMET"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "CERAMIC CHIP CAPACITOR KEMET 2220 REFLOW SOLDER")
+	(tags "CERAMIC CHIP CAPACITOR KEMET 2220 REFLOW SOLDER")
+	(property "Reference" ">NAME"
+		(at 2.53238 -3.45694 0)
+		(layer "F.SilkS")
+		(uuid "4665fc97-bfd5-48c8-9c70-c2f20f77122e")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.0762)
+			)
+		)
+	)
+	(property "Value" ">VALUE"
+		(at 2.91338 3.08356 0)
+		(layer "F.SilkS")
+		(uuid "e5299921-934b-4594-a2fd-cc532307067c")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.0762)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e6ae2905-cf34-47c5-8e9f-f029408e19f3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7386df60-ad99-4bf5-bc18-143720f12dc2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "98654e57-dcd2-4053-97a4-6cfeda30854b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.25908 -2.62636)
+		(end 0.33782 -2.62636)
+		(stroke
+			(width 0.06604)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "7fd71c8a-f60e-43a3-857f-8accee94d058")
+	)
+	(fp_line
+		(start -0.25908 2.37236)
+		(end -0.25908 -2.62636)
+		(stroke
+			(width 0.06604)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "27c52af9-a228-4739-9f23-a6cae57d1aec")
+	)
+	(fp_line
+		(start -0.25908 2.37236)
+		(end 0.33782 2.37236)
+		(stroke
+			(width 0.06604)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "b5054c5d-4036-43f4-9265-e75486484bc6")
+	)
+	(fp_line
+		(start 0.06858 -2.55016)
+		(end 7.29996 -2.55016)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "a4f84c96-cbf7-40e2-8a15-f8b0cd56a7b8")
+	)
+	(fp_line
+		(start 0.33782 2.37236)
+		(end 0.33782 -2.62636)
+		(stroke
+			(width 0.06604)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "f75b11a2-d5fd-4ecb-98da-b0c1d7e4ba66")
+	)
+	(fp_line
+		(start 5.51688 2.29616)
+		(end 7.23646 2.29616)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "623bc36c-110b-4591-8326-6bba6237bcf4")
+	)
+	(fp_line
+		(start 6.89864 -2.62636)
+		(end 7.49808 -2.62636)
+		(stroke
+			(width 0.06604)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "290f8e0b-a7b4-4574-98c9-87065124516c")
+	)
+	(fp_line
+		(start 6.89864 2.37236)
+		(end 6.89864 -2.62636)
+		(stroke
+			(width 0.06604)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "5e0482bf-6caa-4a66-b662-4aa95b6f5e3f")
+	)
+	(fp_line
+		(start 6.89864 2.37236)
+		(end 7.49808 2.37236)
+		(stroke
+			(width 0.06604)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "7a04afa1-e67a-4ef3-895a-43a933db9ea8")
+	)
+	(fp_line
+		(start 7.112 2.286)
+		(end 0.06858 2.29616)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "a3a6e8bc-6ec6-4c87-9191-954b2f028314")
+	)
+	(fp_line
+		(start 7.23646 2.286)
+		(end 7.112 2.286)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "eb4c8a50-8d34-4497-a78f-be14b8aebc74")
+	)
+	(fp_line
+		(start 7.23646 2.29616)
+		(end 7.23646 2.286)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "b6f37198-6aaf-4cff-bec6-e7344711c78e")
+	)
+	(fp_line
+		(start 7.49808 2.37236)
+		(end 7.49808 -2.62636)
+		(stroke
+			(width 0.06604)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "0bdd5181-d3e3-4553-b0de-0a42513be4de")
+	)
+	(pad "1" smd rect
+		(at -0.00762 0)
+		(size 1.84912 5.4991)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "1ccd34ea-4d5f-45f0-a7b9-cbb287546e24")
+	)
+	(pad "2" smd rect
+		(at 7.29996 0)
+		(size 1.84912 5.4991)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "5a0019ea-50d9-496c-a245-60982cae2f42")
+	)
+)

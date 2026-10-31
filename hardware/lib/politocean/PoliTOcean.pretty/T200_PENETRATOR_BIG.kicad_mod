@@ -1,0 +1,103 @@
+(footprint "T200_PENETRATOR_BIG"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" ""
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "91c69c6c-8385-4890-bf67-7a13825870a9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "b232d630-65f4-4d00-a8d2-28c39b45158d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6659420a-5ea5-4964-a4df-9f2a9ace7872")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c6010137-0699-4efc-bf48-5c0a49f455cc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e56d1034-caaf-4d6b-a088-000cc4ee1598")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_text user "W  B  G"
+		(at 2.45872 -3.95224 0)
+		(layer "F.SilkS")
+		(uuid "d955bbcb-2073-4314-a134-7e54b6942b91")
+		(effects
+			(font
+				(size 2.286 2.286)
+				(thickness 0.1778)
+			)
+		)
+	)
+	(pad "P$1" thru_hole rect
+		(at -4.18846 0)
+		(size 3.19786 3.19786)
+		(drill 2.2479)
+		(layers "*.Cu" "*.Paste" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "e7dc3345-cf1c-4da1-82b5-9df5b07ea509")
+	)
+	(pad "P$2" thru_hole rect
+		(at 0 0)
+		(size 3.19786 3.19786)
+		(drill 2.2479)
+		(layers "*.Cu" "*.Paste" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "d83813de-cc87-47bb-951f-d45eaf4611c7")
+	)
+	(pad "P$3" thru_hole rect
+		(at 4.18846 0)
+		(size 3.19786 3.19786)
+		(drill 2.2479)
+		(layers "*.Cu" "*.Paste" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "4a684cd5-8cb6-452b-b61a-a73d16c3cbde")
+	)
+)

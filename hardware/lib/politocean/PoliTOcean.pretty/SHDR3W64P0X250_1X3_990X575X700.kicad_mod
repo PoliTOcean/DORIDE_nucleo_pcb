@@ -1,0 +1,212 @@
+(footprint "SHDR3W64P0X250_1X3_990X575X700"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "B3B-XH-A")
+	(tags "B3B-XH-A")
+	(property "Reference" ">NAME"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "eb806770-15b8-44be-9825-7239b0b44da7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1016)
+			)
+		)
+	)
+	(property "Value" ">VALUE"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "a536d385-c127-4d35-8dba-acb6ece43ddc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1016)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fccfcae7-8aed-4a55-9b00-3acd56a346db")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fb53d61b-215b-436f-8765-37409cb49987")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9d848880-38d3-4c4a-843e-2602e3ac8ecf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_line
+		(start -2.44856 -3.39852)
+		(end -2.44856 0)
+		(stroke
+			(width 0.19812)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b471e2cd-e102-4161-9aa6-abd32fa26ffa")
+	)
+	(fp_line
+		(start 0 2.3495)
+		(end 7.44982 2.3495)
+		(stroke
+			(width 0.19812)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "78360df5-a37a-4354-8c95-e3e3f0de5a4c")
+	)
+	(fp_line
+		(start 7.44982 -3.39852)
+		(end -2.44856 -3.39852)
+		(stroke
+			(width 0.19812)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "27d3d40b-4dbe-4cc2-9238-ad555ceec449")
+	)
+	(fp_line
+		(start 7.44982 2.3495)
+		(end 7.44982 -3.39852)
+		(stroke
+			(width 0.19812)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b98728cf-6c9c-42f3-b06b-baf3814a15c5")
+	)
+	(fp_line
+		(start -2.69748 -3.64998)
+		(end 7.69874 -3.64998)
+		(stroke
+			(width 0.04826)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "5381115d-e34d-4386-8777-d9aea63f5e00")
+	)
+	(fp_line
+		(start -2.69748 2.59842)
+		(end -2.69748 -3.64998)
+		(stroke
+			(width 0.04826)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "7e5478b7-ba48-402d-b521-6d1c9e038f27")
+	)
+	(fp_line
+		(start -2.44856 -3.39852)
+		(end 7.44982 -3.39852)
+		(stroke
+			(width 0.09906)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "05ba2d67-b66c-43b9-bfb4-89e1ad157931")
+	)
+	(fp_line
+		(start -2.44856 2.3495)
+		(end -2.44856 -3.39852)
+		(stroke
+			(width 0.09906)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "624bf131-4824-4dda-b5c7-42d8d0e921d8")
+	)
+	(fp_line
+		(start 7.44982 -3.39852)
+		(end 7.44982 2.3495)
+		(stroke
+			(width 0.09906)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "64af25ec-c3f3-43c7-9261-05cc890fe816")
+	)
+	(fp_line
+		(start 7.44982 2.3495)
+		(end -2.44856 2.3495)
+		(stroke
+			(width 0.09906)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "249e2d64-2c87-4314-b2a7-9066faa11dcc")
+	)
+	(fp_line
+		(start 7.69874 -3.64998)
+		(end 7.69874 2.59842)
+		(stroke
+			(width 0.04826)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "0691c4a0-4ed8-4893-a097-6955beafef2c")
+	)
+	(fp_line
+		(start 7.69874 2.59842)
+		(end -2.69748 2.59842)
+		(stroke
+			(width 0.04826)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "faf7e5d0-1a07-47c4-a793-710516059ec2")
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.64846 1.64846)
+		(drill 1.09982)
+		(layers "*.Cu" "*.Paste" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "33f12283-6cd7-4f88-b549-4aefb0c808a2")
+	)
+	(pad "2" thru_hole circle
+		(at 2.49936 0)
+		(size 1.64846 1.64846)
+		(drill 1.09982)
+		(layers "*.Cu" "*.Paste" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cf5ce242-3579-4b35-b3e8-e7175232ae09")
+	)
+	(pad "3" thru_hole circle
+		(at 4.99872 0)
+		(size 1.64846 1.64846)
+		(drill 1.09982)
+		(layers "*.Cu" "*.Paste" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2ec3b9a5-3acc-47b7-bc98-ff8a72b0e6f9")
+	)
+)
